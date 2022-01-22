@@ -1,0 +1,8 @@
+{
+  "name": "personal-discord-bot",
+  "author": "ritxman <martin.prakasa@gmail.com>",
+  "publish": false,
+  "dependencies": {
+    "lib": "latest"
+  }
+}

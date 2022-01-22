@@ -1,0 +1,19 @@
+{
+  "name": "ritxman/personal-discord-bot",
+  "timeout": 10000,
+  "connector": false,
+  "events": {
+    "functions/events/discord/message/create.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/invite/create.js": {
+      "name": "discord.invite.create"
+    },
+    "functions/events/discord/invite/delete.js": {
+      "name": "discord.invite.delete"
+    },
+    "functions/events/discord/guild/member/add.js": {
+      "name": "discord.guild.member.add"
+    }
+  }
+}
